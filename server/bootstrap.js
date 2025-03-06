@@ -4,7 +4,7 @@ export default async ({strapi}) => {
       section: 'plugins',
       displayName: 'Read',
       uid: 'read',
-      pluginName: 'plugin-sso',
+      pluginName: 'strapi-plugin-sso',
     },
   ];
   await strapi.admin.services.permission.actionProvider.registerMany(actions);
